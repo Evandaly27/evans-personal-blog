@@ -1,0 +1,37 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding: 15px;
+}
+
+main {
+    padding: 15px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: #222;
+}
+
+.dark-mode a {
+    color: white;
+}
