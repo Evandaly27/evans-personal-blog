@@ -1,0 +1,48 @@
+.post {
+    background-color: #8090ee;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post h2, p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.post p:last-child {
+    font-style: italic;
+}
+header h1 {
+    text-align: left;
+}
+
+header a {
+    background-color: #8090ee;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+footer {
+    background-color: #8090ee;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8090ee;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+}

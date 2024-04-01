@@ -32,3 +32,9 @@ button[type="submit"] {
     cursor: pointer;
     font-size: 15px;
 }
+
+button[type="submit"]:hover {
+    background-color: rgb(241, 23, 23);
+    color: #0bbbbb;
+}
+
